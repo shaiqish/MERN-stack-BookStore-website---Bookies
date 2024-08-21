@@ -36,36 +36,48 @@ git clone https://github.com/yourusername/bookies.git
 cd bookies
 ```
 
-Install Dependencies:
+## Installation
 
-For the Client
-cd client
-npm install
+After cloning the folder run the following commands:
 
-For the Server
-cd ../server
-npm install
-Environment Variables
-Create a .env file in the server directory and add the necessary environment variables:
+For the client
 
-MONGO_URI=your_mongodb_uri
+```bash
+  cd client
+  npm i
+```
 
-Run the Application:
+For the server
 
-Start the Client
-cd client
-npm run dev
+```bash
+  cd server
+  npm i
+```
 
-Start the Server
-cd ../server
-npm run start
+Then to run the server:
 
-Future Enhancements 🔮
-Real-Time Data Analysis: Connect the admin dashboard to real-time data analytics.
-Advanced Filtering: Add more advanced filtering options for users.
-Payment Gateway Integration: Enable users to purchase books directly through the site.
-Contributing 🤝
+```bash
+  npm run server
+```
+
+Then to run the app:
+
+```bash
+  npm run dev
+```
+
+After running all the commands go to the link provided in the terminal to use the website.
+
+## Future Enhancements 🔮
+
+- Real-Time Data Analysis: Connect the admin dashboard to real-time data analytics.
+- Advanced Filtering: Add more advanced filtering options for users.
+- Payment Gateway Integration: Enable users to purchase books directly through the site.
+
+## Contributing 🤝
+
 Contributions are welcome! If you'd like to contribute, please fork the repository and make a pull request.
 
-License 📄
+## License 📄
+
 This project is open-source and available under the MIT License.
